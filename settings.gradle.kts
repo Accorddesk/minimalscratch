@@ -1,1 +1,1 @@
-rootProject.name="scratch"
+rootProject.name="minimalscratch"

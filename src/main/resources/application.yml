@@ -1,6 +1,6 @@
 micronaut:
   application:
-    name: Scratch
+    name: minimalScratch
   server:
     host: localhost
     port: 8080

@@ -1,6 +1,6 @@
 micronaut:
   application:
-    name: ScratchTest
+    name: minimalScratchTest
   server:
     host: localhost
     port: 8080
