@@ -1,0 +1,25 @@
+micronaut:
+  application:
+    name: Scratch
+  server:
+    host: localhost
+    port: 8080
+
+endpoints:
+  env:
+    enabled: true
+    sensitive: true
+  info:
+    enabled: true
+    sensitive: true
+  health:
+    enabled: true
+    sensitive: true
+    details-visible: ANONYMOUS
+
+db:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/ndadb"
+    driver-class-name: "org.postgresql.Driver"
+    username: "ndadesk"
+    password: ""

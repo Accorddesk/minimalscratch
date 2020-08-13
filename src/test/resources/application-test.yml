@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: ScratchTest
+  server:
+    host: localhost
+    port: 8080
+
+db:
+  datasource:
+    driver-class-name: "org.postgresql.Driver"
+    url: "jdbc:postgresql://localhost:5432/ndadb"
+    username: "ndadesk"
+    password: ""
